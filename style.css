@@ -1,0 +1,14 @@
+.open {
+    background-color: #fff;
+}
+
+
+@media screen and (max-width: 1080px) {
+    
+    .open img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 900px;
+    }
+}
