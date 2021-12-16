@@ -3,7 +3,7 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-
+/*Nav*/
 
 .navButtons {
     overflow: hidden;   /*Anything outside the boundry will not be shown*/
@@ -57,4 +57,33 @@
     display: block;
     padding-right: 10px;
     float: right;
+}
+/*End Nav*/
+
+/*Columns*/
+
+* {                             /*Everything acting like a table is effected*/
+    box-sizing: border-box;     /*Makes a box with a border to put text in*/
+}
+
+.row::after {                   /*Something that happens after row*/
+    content:"";                 /*This lets the footer still be a footer*/
+    display: table;             /*everything inside acts like a table*/
+    clear: both;                /*Clears anything that could be floating left or right*/
+}
+
+.c1 {
+    float: left;
+    width: 50%;
+    height: 500px;      /*Play with this*/
+    padding: 5px;       /*makes text look nice*/
+    background-color: #b7cfb7;
+}
+
+.c2 {
+    float: left;
+    width: 50%;
+    height: 500px;      /*Play with this*/
+    padding: 5px;       /*makes text look nice*/
+    background-color: #97c1a9;
 }
