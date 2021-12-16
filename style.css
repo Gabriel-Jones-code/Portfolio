@@ -1,0 +1,36 @@
+.theme {
+    background-color: #cce2cb;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+
+.navButtons {
+    overflow: hidden;   /*Anything outside the boundry will not be shown*/
+    background-color: #b7cfb7;
+    position: fixed;    /*Keeps nav at the top of the page*/
+    top: 0;             /*No space between the top and the nav bar*/
+    left: 0;
+    width: 100%;
+    z-index: 1;         /*Use this instead of <br> to keep content off of nav*/
+}
+
+.navButtons a {
+    color: #000;
+    display: block;
+    position: relative;
+    text-align: center;
+    padding: 16px;
+    float: left;
+    text-decoration: none;
+}
+
+.navButtons a:hover {
+    background-color: #97c1a9;
+    transition-duration: .2s;
+    transition: ease-in-out;
+}
+
+.navButtons a.active {
+    background-color: #97c1a9;
+}
