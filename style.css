@@ -22,6 +22,7 @@
     text-align: center;     /*Guess what this does*/
     padding: 16px;      
     float: left;            /*Pushes everything to the left*/
+    text-decoration: none;  /*Don't underline this*/
 }
 
 .navButtons img {
