@@ -25,6 +25,15 @@
     text-decoration: none;
 }
 
+.navButtons img {
+    display: block;
+    float: right;
+    position: absolute;
+    padding-right: 10px;
+    top: 0;
+    right: 0;
+}
+
 .navButtons a:hover {
     background-color: #97c1a9;
     transition-duration: .2s;
@@ -33,4 +42,19 @@
 
 .navButtons a.active {
     background-color: #97c1a9;
+}
+
+.gitlink {
+    position: fixed;
+    overflow: hidden;
+    top: 0;
+    right: 0;
+    z-index: 2;
+}
+
+.gitlink img {
+    position: relative;
+    display: block;
+    padding-right: 10px;
+    float: right;
 }
