@@ -68,13 +68,14 @@
 
 #about {
     width: 100%;
+    left: 0;
     position: absolute;
 }
 
-.row {
+#git {
     width: 100%;
-    position: absolute;
-    display: table;
+    left: 0;
+    position: relative;
 }
 
 .c1 {
