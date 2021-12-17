@@ -68,7 +68,7 @@
 
 .row::after {                   /*Something that happens after row*/
     content:"";                 /*This lets the footer still be a footer*/
-    display: table;             /*everything inside acts like a table*/
+    display: table;            /*everything inside acts like a table*/
     clear: both;                /*Clears anything that could be floating left or right*/
 }
 
