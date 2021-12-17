@@ -66,10 +66,15 @@
     box-sizing: border-box;     /*Makes a box with a border to put text in*/
 }
 
-.row::after {                   /*Something that happens after row*/
-    content:"";                 /*This lets the footer still be a footer*/
-    display: table;            /*everything inside acts like a table*/
-    clear: both;                /*Clears anything that could be floating left or right*/
+#about {
+    width: 100%;
+    position: absolute;
+}
+
+.row {
+    width: 100%;
+    position: absolute;
+    display: table;
 }
 
 .c1 {
