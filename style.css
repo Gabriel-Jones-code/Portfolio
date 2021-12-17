@@ -68,14 +68,17 @@
 
 #about {
     width: 100%;
-    left: 0;
     position: absolute;
 }
 
 #git {
     width: 100%;
-    left: 0;
-    position: relative;
+    position: absolute;
+}
+
+#cont{
+    width: 100%;
+    position: absolute;
 }
 
 .c1 {
