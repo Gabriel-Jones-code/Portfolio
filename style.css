@@ -1,6 +1,8 @@
-.theme {
+body {
+    margin: 0;          /*Overrides default*/
     background-color: #cce2cb;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    z-index: 1;
 }
 
 /*Nav*/
@@ -66,7 +68,7 @@
     box-sizing: border-box;     /*Makes a box with a border to put text in*/
 }
 
-.row::after {
+.row {
     display: table;
     content: "";
     clear: both;
@@ -75,43 +77,28 @@
 #about {
     left: 0;
     width: 100%;
-    overflow: auto;
 }
 
 #git {
     left: 0;
+    width: 100%;
 }
 
 #cont{
     left: 0;
+    width: 100%;
 }
 
 .c1 {
     float: left;
-    left: 0;
     width: 50%;
     height: 500px;      /*Play with this*/
     padding: 5px;       /*makes text look nice*/
-    background-color: #b7cfb7;
+    margin: 0;
+    background-color: #88b388;
 }
 
 .c2 {
-    float: right;
-    width: 50%;
-    height: 500px;      /*Play with this*/
-    padding: 5px;       /*makes text look nice*/
-    background-color: #97c1a9;
-}
-
-.c3 {
-    float: right;
-    width: 50%;
-    height: 500px;      /*Play with this*/
-    padding: 5px;       /*makes text look nice*/
-    background-color: #b7cfb7;
-}
-
-.c4 {
     float: left;
     width: 50%;
     height: 500px;      /*Play with this*/
