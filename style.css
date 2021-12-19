@@ -92,11 +92,41 @@ body {
     float: left;
     width: 50%;
     height: 500px;      /*Play with this*/
-    padding: 5% 5px 5px 5px;       /*makes text look nice*/
     margin: 0;
     background-color: #88b388;
     text-align: center;
 }
+
+.c1 p {
+    color: #000;
+    padding: 5% 5px 5px 5px;
+    font-size: larger;
+    line-height: 25px;
+}
+
+.c1 img {
+    position: relative;
+    margin-top: 10px;
+    overflow: hidden;
+    border: hidden;
+    border-radius: 8px;
+}
+
+.c2 img {
+    display: inline-block;
+    position: relative;
+    height: 480px;
+    width: 480px;
+    margin-top: -40px;
+    overflow: hidden;
+    transition: transform 2s;
+}
+
+.c2 img:hover {
+    transform: rotate(360deg);    
+    transition-timing-function: ease-in-out;
+}
+
 
 .c2 {
     float: left;
@@ -108,12 +138,6 @@ body {
 }
 
 .c2 p {
-    color: #000;
-    font-size: larger;
-    line-height: 25px;
-}
-
-.c1 p {
     color: #000;
     font-size: larger;
     line-height: 25px;
