@@ -2,7 +2,6 @@ body {
     margin: 0;          /*Overrides default*/
     background-color: #cce2cb;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    z-index: 1;
 }
 
 /*Nav*/
@@ -93,15 +92,29 @@ body {
     float: left;
     width: 50%;
     height: 500px;      /*Play with this*/
-    padding: 5px;       /*makes text look nice*/
+    padding: 5% 5px 5px 5px;       /*makes text look nice*/
     margin: 0;
     background-color: #88b388;
+    text-align: center;
 }
 
 .c2 {
     float: left;
     width: 50%;
     height: 500px;      /*Play with this*/
-    padding: 5px;       /*makes text look nice*/
+    padding: 5% 5px 5px 5px;       /*makes text look nice*/
     background-color: #97c1a9;
+    text-align: center;
+}
+
+.c2 p {
+    color: #000;
+    font-size: larger;
+    line-height: 25px;
+}
+
+.c1 p {
+    color: #000;
+    font-size: larger;
+    line-height: 25px;
 }
