@@ -83,9 +83,34 @@ body {
     width: 100%;
 }
 
+#git p {
+    margin-top: 100px;
+}
+
+#git h2 {
+    padding-top: 30px;
+}
+
 #cont{
-    left: 0;
-    width: 100%;
+    display: block;
+    position: relative;
+}
+
+#cont input[type=text] {
+    box-sizing: border-box;
+    margin-left: 37%;
+    margin-bottom: 5px;
+    background-color: #b7cfb7;
+    border: 1px solid #88b388;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 25%;
+}
+
+#cont input[type=submit] {
+    background-color: #FFF;
+    box-sizing: border-box;
+    margin-left: 48%;
 }
 
 .c1 {
@@ -117,9 +142,9 @@ body {
     position: relative;
     height: 480px;
     width: 480px;
-    margin-top: -40px;
+    margin-top: -9%;
     overflow: hidden;
-    transition: transform 2s;
+    transition: transform 1.5s;
 }
 
 .c2 img:hover {
